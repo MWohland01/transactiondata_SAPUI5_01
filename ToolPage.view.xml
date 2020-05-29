@@ -1,0 +1,172 @@
+<mvc:View
+	controllerName="sap.tnt.sample.ToolPage.ToolPage"
+	xmlns="sap.m"
+	xmlns:form="sap.ui.layout.form"	
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:tnt="sap.tnt"
+	height="100%">
+	<tnt:ToolPage id="toolPage">
+		<tnt:header>
+			<tnt:ToolHeader>
+				<Button
+					id="sideNavigationToggleButton"
+					icon="sap-icon://menu2"
+					type="Transparent"
+					press=".onSideNavButtonPress">
+					<layoutData>
+						<OverflowToolbarLayoutData priority="NeverOverflow" />
+					</layoutData>
+				</Button>
+				<ToolbarSpacer width="20px" />
+
+				
+				
+				<tnt:ToolHeaderUtilitySeparator />
+				<ToolbarSpacer>
+					<layoutData>
+						<OverflowToolbarLayoutData priority="NeverOverflow" minWidth="20px" />
+					</layoutData>
+				</ToolbarSpacer>
+				<Button text="user01" type="Transparent" press=".handleUserNamePress">
+					<layoutData>
+						<OverflowToolbarLayoutData priority="NeverOverflow" />
+					</layoutData>
+				</Button>
+			</tnt:ToolHeader>
+		</tnt:header>
+		<tnt:sideContent>
+			<tnt:SideNavigation
+				expanded="true"
+				selectedKey="{/selectedKey}"
+				itemSelect=".onItemSelect">
+				<tnt:NavigationList items="{path: '/navigation'}">
+					<tnt:NavigationListItem
+						text="{title}"
+						icon="{icon}"
+						enabled="{enabled}"
+						expanded="{expanded}"
+						items="{items}"
+						key="{key}">
+						<tnt:NavigationListItem
+							text="{title}"
+							key="{key}"
+							enabled="{enabled}" />
+					</tnt:NavigationListItem>
+				</tnt:NavigationList>
+				<tnt:fixedItem>
+					<tnt:NavigationList items="{path: '/fixedNavigation'}">
+						<tnt:NavigationListItem text="{title}" icon="{icon}" />
+					</tnt:NavigationList>
+				</tnt:fixedItem>
+			</tnt:SideNavigation>
+		</tnt:sideContent>
+		<tnt:mainContents>
+			<NavContainer id="pageContainer" initialPage="login">
+				<pages>
+					<ScrollContainer
+						id="login"
+						horizontal="false"
+						vertical="true"
+						height="100%">
+						<VBox fitContainer="true" justifyContent="Center" alignItems="Center" alignContent="Center">
+							<items>		
+								<Panel id="Logo"  width="24rem" height="330px" >
+									<content>	
+										<Image src="images/logo05_schema01_normal.png"
+											width="18rem"
+											decorative="false"
+											press="handleImage3Press" />
+
+									</content>
+								</Panel>
+								<form:SimpleForm		
+									layout="ResponsiveGridLayout"
+									editable="true"
+									width="24rem"
+									adjustLabelSpan="false"
+									labelSpanXL="2"
+									labelSpanL="2"
+									labelSpanM="2"
+									labelSpanS="5">	
+									
+									<Label id="label_uid"
+										labelFor="uid"
+										displayOnly="true"
+										wrapping="false"
+										text="User (user01)"/>		
+										<Input id="uid" placeholder="user01"></Input>
+										<Label text="Password (pass01)" />	 
+										<Input id="pasw" placeholder="pass01" type="Password"></Input>	
+								</form:SimpleForm>	 
+								<Button id="idButton_Full2" width="24rem" text="Login" type="Emphasized" press="onLogOnButton"></Button> 
+							</items>
+						</VBox>				
+
+					</ScrollContainer>
+					<ScrollContainer
+						id="root1"
+						horizontal="false"
+						vertical="true"
+						height="100%">
+			<Title text="Hotels" />					
+			<List id="employeeList" headerText="{i18n>ListOfAllEmployees}" items="{/Employees}">
+				<items>
+					<StandardListItem
+						title="{FirstName} {LastName}"
+						iconDensityAware="false"
+						iconInset="false"
+						type="Navigation"
+						press="onListItemPressed"/>
+				</items>
+			</List>
+						
+						
+						
+					</ScrollContainer>
+					<ScrollContainer
+						id="entry"
+						horizontal="false"
+						vertical="true"
+						height="100%">
+		<content>
+			<VBox fitContainer="true" justifyContent="Center" alignItems="Center" alignContent="Center">
+			<items>				
+				<Panel id="Hotels"  width="24rem" height="240px" >
+					<content>	
+						<ImageContent src="images/appicon.svg"
+						press="onNavToHotelList"
+						>
+						</ImageContent>		
+					</content>
+				</Panel>		
+				<Panel id="Fluege"  width="24rem" height="240px" >
+					<content>	
+						<ImageContent src="images/appicon.svg" 
+						press="onNavToFlightsList"
+						>
+						</ImageContent>		
+					</content>
+				</Panel>	
+		
+			<Button id="idButton_Full" width="12rem" text="Logout" type="Emphasized" press="onPressButton"></Button>
+    </items>
+   </VBox>			
+		</content>						
+					</ScrollContainer>
+					<ScrollContainer
+						id="root2"
+						horizontal="false"
+						vertical="true"
+						height="100%">
+							<Text text="This is the root page" />					
+						
+
+
+						
+						
+					</ScrollContainer>
+				</pages>
+			</NavContainer>
+		</tnt:mainContents>
+	</tnt:ToolPage>
+</mvc:View>

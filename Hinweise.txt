@@ -1,0 +1,24 @@
+
+
+leeres projekt mit NPM anlegen
+
+npm init -y
+
+lite-server installieren und in package.json eintragen
+
+npm install --save lite-server
+
+Startsequenz in  package.json eintragen
+"scripts": { "start": "lite-server"},
+
+index.html mit lite-server starten 
+
+npm start
+
+Projektverzeichnis
+R:
+cd R:\_produktion\_SW-Entwicklung\_Projekte\_Coding\traveling_europe\transactiondata
+
+
+
+

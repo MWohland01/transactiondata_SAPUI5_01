@@ -1,0 +1,171 @@
+{
+	"sap.app": {
+		"id": "sap.tnt.sample.ToolPage",
+		"start_url": "index.html",		
+		"type": "application",		
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"dataSources": {
+			"employeeRemote": {
+				"uri": "/here/goes/your/serviceUrl/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri" : "localService/metadata.xml"
+				}
+			}
+		}			
+		
+	},
+  "sap.ui": {
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    },
+    "supportedThemes": [
+      "sap_belize_hcb",
+      "sap_belize_hcw",
+      "sap_belize",
+      "sap_belize_plus",
+      "sap_fiori_3",
+      "sap_fiori_3_hcb",
+      "sap_fiori_3_hcw"
+    ]
+  },
+	"sap.ui5": {
+		"rootView": {
+            "id": "rootView",		
+			"viewName": "sap.tnt.sample.ToolPage.view.App",
+			"type": "XML",
+			"async": true
+		},
+
+		
+		"dependencies": {
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.tnt": {}
+			}
+		},
+		"config": {
+			"sample": {
+				"files": [
+					"ToolPage.view.xml",
+					"ToolPage.controller.js",
+					"model/data.json",
+					"manifest.json"
+				]
+			}
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "sap.tnt.sample.ToolPage.i18n.i18n"
+				}
+			},
+			"": {
+				"dataSource": "employeeRemote"
+			}
+		},
+    "routing": {
+      "routes": [
+        "home": {
+          "pattern": "",
+          "target": "parentTarget"
+        },
+        "childRoute1": {
+          "pattern": "child1",
+          "target": "childTarget1"
+        },
+        "childRoute2": {
+          "pattern": "child2",
+          "target": "childTarget2"
+        }, {
+				"pattern": "hotels",
+				"name": "hotelList",
+				"target": "hotels"
+			}
+      }, {
+				"pattern": "hotels/{employeeId}",
+				"name": "hotel",
+				"target": "hotel"
+			}, {
+				"pattern": "hotels/{employeeId}/resume:?query:",
+				"name": "employeeResume",
+				"target": "employeeResume"
+			}],
+      "targets": 
+			{
+	  				"hotels": {
+					"viewPath": "sap.tnt.sample.ToolPage.view.hotels",
+					"viewName": "HotelList",
+					"viewLevel" : 2
+				},
+				"hotel": {
+					"viewPath": "sap.tnt.sample.ToolPage.view.hotels",
+					"viewName": "Hotel",
+					"viewLevel" : 3
+				},
+	  
+	
+        "parentTarget": {
+          "viewPath": "sap.tnt.sample.ToolPage",		
+          "viewName": "ToolPage",
+          "viewLevel": 1
+        },
+        "childTarget0": {
+          "viewPath": "sap.tnt.sample.ToolPage.view.children",
+          "viewName": "Empty",
+          "parent": "parentTarget",
+          "controlId": "pageContainer",
+          "controlAggregation": "pages",
+          "transition": "flip",
+          "viewLevel": 2
+        },
+        "childTarget1": {
+          "viewPath": "sap.tnt.sample.ToolPage.view.children",
+          "viewName": "Child1",
+          "parent": "parentTarget",
+          "controlId": "pageContainer",
+          "controlAggregation": "pages",
+          "transition": "flip",
+          "viewLevel": 3
+        },
+        "childTarget2": {
+          "viewPath": "sap.tnt.sample.ToolPage.view.children",
+          "viewName": "Child2",
+          "parent": "parentTarget",
+          "controlId": "pageContainer",
+          "transition": "slide",
+          "controlAggregation": "pages",
+          "viewLevel": 4
+        },
+        "notFound": {
+          "viewName": "Parent",
+          "transition": "flip",
+          "viewLevel": 0
+        }
+      }
+,
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "async": true,
+        "viewPath": "sap.tnt.sample.ToolPage.view",
+        "controlId": "myApp",
+        "controlAggregation": "pages",
+        "bypassed": {
+          "target": "notFound"
+        }
+      }
+    }
+ 		
+		
+		
+	}
+}

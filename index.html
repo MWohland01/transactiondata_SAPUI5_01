@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>traveling europe transaction data</title>
+
+
+<!--
+//     type="text/javascript"		
+//         src="resources/sap-ui-core.js" 
+
+-->
+
+<!--
+PWA : https://a.kabachnik.info/pwa-with-sap-openui5.html
+
+-->
+
+  <script 
+        id="sap-ui-bootstrap"
+
+		src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"		 
+		data-sap-ui-theme="sap_belize"
+         data-sap-ui-compatVersion="edge"		
+		data-sap-ui-resourceroots='{
+			"sap.tnt.sample.ToolPage": "./",
+			"sap.ui.demo.mock": "mockdata"
+		}'
+		data-sap-ui-modules="sap/ui/core/ComponentSupport"
+        data-sap-ui-preload="async" 
+		data-sap-ui-xx-componentpreload="off"
+  ></script>	
+	
+		<script>
+
+			sap.ui.getCore().attachInit(function () 
+			{
+				sap.ui.require([
+					"sap/tnt/sample/ToolPage/localService/mockserver"
+				], 
+				function (	mockserver) 
+				{
+						mockserver.init(); 
+				});
+			});
+	</script>
+	
+	
+</head>
+
+<body class="sapUiBody" id="content">
+	<div data-sap-ui-component
+		data-name="sap.tnt.sample.ToolPage"
+		data-height="100%"
+        data-id="rootComponentContainer"
+		data-settings='{"id" : "sap.tnt.sample.ToolPage"}'
+		style="height: 100%">
+	</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	displayBlock="true"
+	height="100%"
+>
+	<Shell>
+		<App id="myApp">
+			<pages>
+				<!-- The "Parent" view will be added here by the routing mechanism -->
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
