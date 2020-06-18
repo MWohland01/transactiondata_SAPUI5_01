@@ -20,5 +20,23 @@ R:
 cd R:\_produktion\_SW-Entwicklung\_Projekte\_Coding\traveling_europe\transactiondata
 
 
+Deployed nach heroku : https://transactiondata.herokuapp.com/
+
+
+
+// Upload nach github
+
+
+cd /R/_produktion/_SW-Entwicklung/_Projekte/_Coding/traveling_europe/transactiondata
+
+git pull  https://github.com/MWohland01/transactiondata_SAPUI5_01.git master
+
+git add .
+
+git commit  -m "CORS hinzugefügt 1"
+
+git push  https://github.com/MWohland01/transactiondata_SAPUI5_01.git master
+
+
 
 
