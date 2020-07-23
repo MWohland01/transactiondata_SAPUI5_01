@@ -1,0 +1,118 @@
+[
+        {
+            "SupplierID": 1,
+			"Country": "D",		
+			"CityID": "27",
+			"City": "Berlin",	
+			"ProductID": "1",			
+			
+			"Description": "Hotel Alt Tegel",
+			"ArrivalDate": "2020-06-30",
+			"StayDuration": "3",
+			"CategoryID": 2,
+			"CategoryName": "DZ"
+        },
+       {
+            "SupplierID": 2,
+			"Country": "D",					
+			"CityID": "27",
+			"City": "Berlin",	
+			"ProductID": "2",						
+			"Description": "Central-Hotel Tegel",
+			"ArrivalDate": "2020-06-30",
+			"StayDuration": "3",
+			"CategoryID": 2,
+			"CategoryName": "DZ"
+        },
+        {
+            "SupplierID": 3,
+			"Country": "D",		
+			"CityID": "27",
+			"City": "Berlin",	
+			"ProductID": "3",						
+			"Description": "Hotel am Borsigturm",		
+			"ArrivalDate": "",
+			"StayDuration": "3",
+			"CategoryID": 2,
+			"CategoryName": "DZ"
+
+        },
+        {
+            "SupplierID": 4,
+			"Country": "D",					
+			"CityID": "27",
+			"City": "Berlin",	
+			"ProductID": "4",						
+			"Description": "Mercure Airport Hotel Berlin Tegel",		
+			"ArrivalDate": "",
+			"StayDuration": "3",
+			"CategoryID": 1,
+			"CategoryName": "EZ"
+        },
+        {
+            "SupplierID": 5,
+			"Country": "A",					
+			"CityID": "23",
+			"City": "Wien",	
+			"ProductID": "5",						
+			"Description": "MOXY Vienna Airport",
+			"ArrivalDate": "",
+			"StayDuration": "3",
+			"CategoryID": 2,
+			"CategoryName": "DZ"
+
+        }
+		,
+        {
+            "SupplierID": 6,
+			"Country": "A",					
+			"CityID": "23",
+			"City": "Wien",	
+			"ProductID": "6",						
+			"Description": "NH Vienna Airport Conference Center",
+			"ArrivalDate": "",
+			"StayDuration": "3",
+			"CategoryID": 1,
+			"CategoryName": "EZ"
+
+        },
+        {
+            "SupplierID": 7,
+			"Country": "A",		
+			"CityID": "23",
+			"City": "Wien",	
+			"ProductID": "7",						
+			"Description": "Das Reinisch Business Hotel",
+			"ArrivalDate": "",
+			"StayDuration": "3",
+			"CategoryID":3,
+			"CategoryName": "2BZ"
+
+        }
+		,
+        {
+            "SupplierID": 8,
+			"Country": "A",					
+			"CityID": "23",
+			"City": "Wien",	
+			"ProductID": "8",						
+			"Description": "JUFA Hotel Wien",
+			"ArrivalDate": "",
+			"StayDuration": "3",
+			"CategoryID": 1,
+			"CategoryName": "EZ"
+        },
+        {
+            "SupplierID": 9,
+			"Country": "A",					
+
+			"CityID": "23",
+			"City": "Wien",	
+			"ProductID": "9",						
+			"Description": "LifeHotel Vienna Airport",
+			"ArrivalDate": "",
+			"StayDuration": "3",
+			"CategoryID": 2,
+			"CategoryName": "DZ"
+        }
+    ]

@@ -1,62 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="Access-Control-Allow-Origin" content="*">	
-	<title>traveling europe transaction data</title>
-
-
-<!--
-//     type="text/javascript"		
-//         src="resources/sap-ui-core.js" 
-
--->
-
-<!--
-PWA : https://a.kabachnik.info/pwa-with-sap-openui5.html
-
--->
-
-  <script 
-        id="sap-ui-bootstrap"
-
-		src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"		 
-		data-sap-ui-theme="sap_belize"
-         data-sap-ui-compatVersion="edge"		
-		data-sap-ui-resourceroots='{
-			"sap.tnt.sample.ToolPage": "./",
-			"sap.ui.demo.mock": "mockdata"
-		}'
-		data-sap-ui-modules="sap/ui/core/ComponentSupport"
-        data-sap-ui-preload="async" 
-		data-sap-ui-xx-componentpreload="off"
-  ></script>	
-	
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="utf-8" />
+		<title>Component Based Navigation</title>
+		<script
+			id="sap-ui-bootstrap"
+			src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_fiori_3"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-async="true"
+			data-sap-ui-frameOptions="trusted"
+			data-sap-ui-onInit="module:sap/ui/core/ComponentSupport"
+			data-sap-ui-resourceroots='{"sap.ui.core.sample.RoutingNestedComponent": "./"}'
+		></script>
 		<script>
 
 			sap.ui.getCore().attachInit(function () 
 			{
 				sap.ui.require([
-					"sap/tnt/sample/ToolPage/localService/mockserver"
+					"sap/ui/core/sample/RoutingNestedComponent/localService/mockserver"
 				], 
 				function (	mockserver) 
 				{
 						mockserver.init(); 
 				});
 			});
-	</script>
-	
-	
-</head>
-
-<body class="sapUiBody" id="content">
-	<div data-sap-ui-component
-		data-name="sap.tnt.sample.ToolPage"
-		data-height="100%"
-        data-id="rootComponentContainer"
-		data-settings='{"id" : "sap.tnt.sample.ToolPage"}'
-		style="height: 100%">
-	</div>
-</body>
+		</script>				
+		
+		<link href="./css/style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body class="sapUiBody">
+		<div data-sap-ui-component data-name="sap.ui.core.sample.RoutingNestedComponent" data-id="container" data-settings='{"id": "app"}'></div>
+	</body>
 </html>

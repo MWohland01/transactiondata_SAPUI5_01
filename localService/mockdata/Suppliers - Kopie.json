@@ -1,0 +1,137 @@
+[
+        {
+            "SupplierID": 1,
+		"Description": "Hotel Alt Tegel",
+		"CityID": "27",
+		"City": "Berlin",	
+		"Address": "Treskowstraße 3-4, 13507 Berlin",
+		"Country": "D",		
+
+		"Phone": "+49 03 1234567",
+		"Xcoord": "735",
+		"Ycoord": "680",
+		"Spatial": "",		
+		"ChainID": "1",
+		"Chain"	: "Chain1"	
+        },
+        {
+            "SupplierID": 2,
+		"Description": "Central-Hotel Tegel",
+		"CityID": "27",
+		"City": "Berlin",	
+		"Address": "Holzhauser Str. 2, 13509 Berlin",
+		"Country": "D",		
+
+		"Phone": "+49 03 1234567",
+		"Xcoord": "735",
+		"Ycoord": "680",
+		"Spatial": "",		
+		"ChainID": "2",
+		"Chain"	: "Chain2"	
+        },
+        {
+            "SupplierID": 3,
+		"Description": "Hotel am Borsigturm",
+		"CityID": "27",
+		"City": "Berlin",	
+		"Address": "Am Borsigturm 1, 13507 Berlin",
+		"Country": "D",		
+
+		"Phone": "+49 03 1234567",
+		"Xcoord": "735",
+		"Ycoord": "680",
+		"Spatial": "",		
+		"ChainID": "1",
+		"Chain"	: "Chain1"	
+        },
+        {
+            "SupplierID": 4,
+		"Description": "Mercure Airport Hotel Berlin Tegel",
+		"CityID": "27",
+		"City": "Berlin",	
+		"Address": "Kurt-Schumacher-Damm 202, 13405 Berlin",
+		"Country": "D",		
+
+		"Phone": "+49 03 1234567",
+		"Xcoord": "735",
+		"Ycoord": "680",
+		"Spatial": "",		
+		"ChainID": "16",
+		"Chain"	: "Chain16"	
+        },
+        {
+            "SupplierID": 5,
+		"Description": "MOXY Vienna Airport",
+		"CityID": "23",
+		"City": "Wien",	
+		"Address": "Ausfahrtsstraße 4, 1300 Schwechat",
+		"Country": "A",		
+
+		"Phone": "+41 03 1234567",
+		"Xcoord": "788",
+		"Ycoord": "750",
+		"Spatial": "",		
+		"ChainID": "",
+		"Chain"	: ""	
+        },
+        {
+            "SupplierID": 6,
+		"Description": "NH Vienna Airport Conference Center",
+		"CityID": "23",
+		"City": "Wien",	
+		"Address": "Einfahrtstraße 1-3, 1300 Schwechat",
+		"Country": "A",		
+
+		"Phone": "+41 03 1234567",
+		"Xcoord": "788",
+		"Ycoord": "750",
+		"Spatial": "",		
+		"ChainID": "",
+		"Chain"	: ""	
+        },
+        {
+            "SupplierID": 7,
+		"Description": "Das Reinisch Business Hotel",
+		"CityID": "23",
+		"City": "Wien",	
+		"Address": "Mannswörther Straße 76, 2320 Schwechat",
+		"Country": "A",		
+
+		"Phone": "+41 03 1234567",
+		"Xcoord": "788",
+		"Ycoord": "750",
+		"Spatial": "",		
+		"ChainID": "",
+		"Chain"	: ""	
+        },
+        {
+            "SupplierID": 8,
+		"Description": "JUFA Hotel Wien",
+		"CityID": "23",
+		"City": "Wien",	
+		"Address": "Mautner-Markhof-Gasse 50, 11. Simmering, 1110 Wien",
+		"Country": "A",		
+
+		"Phone": "+41 03 1234567",
+		"Xcoord": "788",
+		"Ycoord": "750",
+		"Spatial": "",		
+		"ChainID": "",
+		"Chain"	: ""	
+        },
+        {
+            "SupplierID": 9,
+		"Description": "LifeHotel Vienna Airport",
+		"CityID": "23",
+		"City": "Wien",	
+		"Address": "Marco-Polo-Straße 1/Marcotelstraße 1, 2401 Fischamend Dorf",
+		"Country": "A",		
+
+		"Phone": "+41 03 1234567",
+		"Xcoord": "788",
+		"Ycoord": "750",
+		"Spatial": "",		
+		"ChainID": "",
+		"Chain"	: ""	
+        }
+    ]

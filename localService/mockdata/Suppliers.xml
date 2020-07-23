@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xml:base="https://services.odata.org/V2/Northwind/Northwind.svc/" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Suppliers</title>
+  <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers</id>
+  <updated>2020-07-21T06:54:37Z</updated>
+  <link rel="self" title="Suppliers" href="Suppliers" />
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(1)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(1)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(1)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">1</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Exotic Liquids</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Charlotte Cooper</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Purchasing Manager</d:ContactTitle>
+        <d:Address m:type="Edm.String">49 Gilbert St.</d:Address>
+        <d:City m:type="Edm.String">London</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">EC1 4SD</d:PostalCode>
+        <d:Country m:type="Edm.String">UK</d:Country>
+        <d:Phone m:type="Edm.String">(171) 555-2222</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(2)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(2)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(2)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">2</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">New Orleans Cajun Delights</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Shelley Burke</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Order Administrator</d:ContactTitle>
+        <d:Address m:type="Edm.String">P.O. Box 78934</d:Address>
+        <d:City m:type="Edm.String">New Orleans</d:City>
+        <d:Region m:type="Edm.String">LA</d:Region>
+        <d:PostalCode m:type="Edm.String">70117</d:PostalCode>
+        <d:Country m:type="Edm.String">USA</d:Country>
+        <d:Phone m:type="Edm.String">(100) 555-4822</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String">#CAJUN.HTM#</d:HomePage>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(3)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(3)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(3)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">3</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Grandma Kelly's Homestead</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Regina Murphy</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Sales Representative</d:ContactTitle>
+        <d:Address m:type="Edm.String">707 Oxford Rd.</d:Address>
+        <d:City m:type="Edm.String">Ann Arbor</d:City>
+        <d:Region m:type="Edm.String">MI</d:Region>
+        <d:PostalCode m:type="Edm.String">48104</d:PostalCode>
+        <d:Country m:type="Edm.String">USA</d:Country>
+        <d:Phone m:type="Edm.String">(313) 555-5735</d:Phone>
+        <d:Fax m:type="Edm.String">(313) 555-3349</d:Fax>
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(4)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(4)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(4)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">4</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Tokyo Traders</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Yoshi Nagase</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Marketing Manager</d:ContactTitle>
+        <d:Address m:type="Edm.String">9-8 Sekimai Musashino-shi</d:Address>
+        <d:City m:type="Edm.String">Tokyo</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">100</d:PostalCode>
+        <d:Country m:type="Edm.String">Japan</d:Country>
+        <d:Phone m:type="Edm.String">(03) 3555-5011</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(5)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(5)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(5)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">5</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Cooperativa de Quesos 'Las Cabras'</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Antonio del Valle Saavedra</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Export Administrator</d:ContactTitle>
+        <d:Address m:type="Edm.String">Calle del Rosal 4</d:Address>
+        <d:City m:type="Edm.String">Oviedo</d:City>
+        <d:Region m:type="Edm.String">Asturias</d:Region>
+        <d:PostalCode m:type="Edm.String">33007</d:PostalCode>
+        <d:Country m:type="Edm.String">Spain</d:Country>
+        <d:Phone m:type="Edm.String">(98) 598 76 54</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(6)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(6)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(6)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">6</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Mayumi's</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Mayumi Ohno</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Marketing Representative</d:ContactTitle>
+        <d:Address m:type="Edm.String">92 Setsuko Chuo-ku</d:Address>
+        <d:City m:type="Edm.String">Osaka</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">545</d:PostalCode>
+        <d:Country m:type="Edm.String">Japan</d:Country>
+        <d:Phone m:type="Edm.String">(06) 431-7877</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String">Mayumi's (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/mayumi.htm#</d:HomePage>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(7)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(7)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(7)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">7</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Pavlova, Ltd.</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Ian Devling</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Marketing Manager</d:ContactTitle>
+        <d:Address m:type="Edm.String">74 Rose St. Moonie Ponds</d:Address>
+        <d:City m:type="Edm.String">Melbourne</d:City>
+        <d:Region m:type="Edm.String">Victoria</d:Region>
+        <d:PostalCode m:type="Edm.String">3058</d:PostalCode>
+        <d:Country m:type="Edm.String">Australia</d:Country>
+        <d:Phone m:type="Edm.String">(03) 444-2343</d:Phone>
+        <d:Fax m:type="Edm.String">(03) 444-6588</d:Fax>
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(8)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(8)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(8)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">8</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Specialty Biscuits, Ltd.</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Peter Wilson</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Sales Representative</d:ContactTitle>
+        <d:Address m:type="Edm.String">29 King's Way</d:Address>
+        <d:City m:type="Edm.String">Manchester</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">M14 GSD</d:PostalCode>
+        <d:Country m:type="Edm.String">UK</d:Country>
+        <d:Phone m:type="Edm.String">(161) 555-4448</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(9)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(9)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(9)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">9</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">PB Knäckebröd AB</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Lars Peterson</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Sales Agent</d:ContactTitle>
+        <d:Address m:type="Edm.String">Kaloadagatan 13</d:Address>
+        <d:City m:type="Edm.String">Göteborg</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">S-345 67</d:PostalCode>
+        <d:Country m:type="Edm.String">Sweden</d:Country>
+        <d:Phone m:type="Edm.String">031-987 65 43</d:Phone>
+        <d:Fax m:type="Edm.String">031-987 65 91</d:Fax>
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(10)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(10)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(10)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">10</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Refrescos Americanas LTDA</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Carlos Diaz</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Marketing Manager</d:ContactTitle>
+        <d:Address m:type="Edm.String">Av. das Americanas 12.890</d:Address>
+        <d:City m:type="Edm.String">Sao Paulo</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">5442</d:PostalCode>
+        <d:Country m:type="Edm.String">Brazil</d:Country>
+        <d:Phone m:type="Edm.String">(11) 555 4640</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(11)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(11)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(11)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">11</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Heli Süßwaren GmbH &amp; Co. KG</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Petra Winkler</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Sales Manager</d:ContactTitle>
+        <d:Address m:type="Edm.String">Tiergartenstraße 5</d:Address>
+        <d:City m:type="Edm.String">Berlin</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">10785</d:PostalCode>
+        <d:Country m:type="Edm.String">Germany</d:Country>
+        <d:Phone m:type="Edm.String">(010) 9984510</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(12)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(12)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(12)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">12</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Plutzer Lebensmittelgroßmärkte AG</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Martin Bein</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">International Marketing Mgr.</d:ContactTitle>
+        <d:Address m:type="Edm.String">Bogenallee 51</d:Address>
+        <d:City m:type="Edm.String">Frankfurt</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">60439</d:PostalCode>
+        <d:Country m:type="Edm.String">Germany</d:Country>
+        <d:Phone m:type="Edm.String">(069) 992755</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String">Plutzer (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/plutzer.htm#</d:HomePage>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(13)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(13)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(13)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">13</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Nord-Ost-Fisch Handelsgesellschaft mbH</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Sven Petersen</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Coordinator Foreign Markets</d:ContactTitle>
+        <d:Address m:type="Edm.String">Frahmredder 112a</d:Address>
+        <d:City m:type="Edm.String">Cuxhaven</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">27478</d:PostalCode>
+        <d:Country m:type="Edm.String">Germany</d:Country>
+        <d:Phone m:type="Edm.String">(04721) 8713</d:Phone>
+        <d:Fax m:type="Edm.String">(04721) 8714</d:Fax>
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(14)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(14)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(14)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">14</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Formaggi Fortini s.r.l.</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Elio Rossi</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Sales Representative</d:ContactTitle>
+        <d:Address m:type="Edm.String">Viale Dante, 75</d:Address>
+        <d:City m:type="Edm.String">Ravenna</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">48100</d:PostalCode>
+        <d:Country m:type="Edm.String">Italy</d:Country>
+        <d:Phone m:type="Edm.String">(0544) 60323</d:Phone>
+        <d:Fax m:type="Edm.String">(0544) 60603</d:Fax>
+        <d:HomePage m:type="Edm.String">#FORMAGGI.HTM#</d:HomePage>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(15)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(15)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(15)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">15</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Norske Meierier</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Beate Vileid</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Marketing Manager</d:ContactTitle>
+        <d:Address m:type="Edm.String">Hatlevegen 5</d:Address>
+        <d:City m:type="Edm.String">Sandvika</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">1320</d:PostalCode>
+        <d:Country m:type="Edm.String">Norway</d:Country>
+        <d:Phone m:type="Edm.String">(0)2-953010</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(16)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(16)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(16)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">16</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Bigfoot Breweries</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Cheryl Saylor</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Regional Account Rep.</d:ContactTitle>
+        <d:Address m:type="Edm.String">3400 - 8th Avenue Suite 210</d:Address>
+        <d:City m:type="Edm.String">Bend</d:City>
+        <d:Region m:type="Edm.String">OR</d:Region>
+        <d:PostalCode m:type="Edm.String">97101</d:PostalCode>
+        <d:Country m:type="Edm.String">USA</d:Country>
+        <d:Phone m:type="Edm.String">(503) 555-9931</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(17)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(17)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(17)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">17</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Svensk Sjöföda AB</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Michael Björn</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Sales Representative</d:ContactTitle>
+        <d:Address m:type="Edm.String">Brovallavägen 231</d:Address>
+        <d:City m:type="Edm.String">Stockholm</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">S-123 45</d:PostalCode>
+        <d:Country m:type="Edm.String">Sweden</d:Country>
+        <d:Phone m:type="Edm.String">08-123 45 67</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(18)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(18)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(18)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">18</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Aux joyeux ecclésiastiques</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Guylène Nodier</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Sales Manager</d:ContactTitle>
+        <d:Address m:type="Edm.String">203, Rue des Francs-Bourgeois</d:Address>
+        <d:City m:type="Edm.String">Paris</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">75004</d:PostalCode>
+        <d:Country m:type="Edm.String">France</d:Country>
+        <d:Phone m:type="Edm.String">(1) 03.83.00.68</d:Phone>
+        <d:Fax m:type="Edm.String">(1) 03.83.00.62</d:Fax>
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(19)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(19)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(19)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">19</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">New England Seafood Cannery</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Robb Merchant</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Wholesale Account Agent</d:ContactTitle>
+        <d:Address m:type="Edm.String">Order Processing Dept. 2100 Paul Revere Blvd.</d:Address>
+        <d:City m:type="Edm.String">Boston</d:City>
+        <d:Region m:type="Edm.String">MA</d:Region>
+        <d:PostalCode m:type="Edm.String">02134</d:PostalCode>
+        <d:Country m:type="Edm.String">USA</d:Country>
+        <d:Phone m:type="Edm.String">(617) 555-3267</d:Phone>
+        <d:Fax m:type="Edm.String">(617) 555-3389</d:Fax>
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(20)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(20)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(20)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">20</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Leka Trading</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Chandra Leka</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Owner</d:ContactTitle>
+        <d:Address m:type="Edm.String">471 Serangoon Loop, Suite #402</d:Address>
+        <d:City m:type="Edm.String">Singapore</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">0512</d:PostalCode>
+        <d:Country m:type="Edm.String">Singapore</d:Country>
+        <d:Phone m:type="Edm.String">555-8787</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(21)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(21)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(21)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">21</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Lyngbysild</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Niels Petersen</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Sales Manager</d:ContactTitle>
+        <d:Address m:type="Edm.String">Lyngbysild Fiskebakken 10</d:Address>
+        <d:City m:type="Edm.String">Lyngby</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">2800</d:PostalCode>
+        <d:Country m:type="Edm.String">Denmark</d:Country>
+        <d:Phone m:type="Edm.String">43844108</d:Phone>
+        <d:Fax m:type="Edm.String">43844115</d:Fax>
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(22)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(22)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(22)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">22</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Zaanse Snoepfabriek</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Dirk Luchte</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Accounting Manager</d:ContactTitle>
+        <d:Address m:type="Edm.String">Verkoop Rijnweg 22</d:Address>
+        <d:City m:type="Edm.String">Zaandam</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">9999 ZZ</d:PostalCode>
+        <d:Country m:type="Edm.String">Netherlands</d:Country>
+        <d:Phone m:type="Edm.String">(12345) 1212</d:Phone>
+        <d:Fax m:type="Edm.String">(12345) 1210</d:Fax>
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(23)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(23)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(23)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">23</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Karkki Oy</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Anne Heikkonen</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Product Manager</d:ContactTitle>
+        <d:Address m:type="Edm.String">Valtakatu 12</d:Address>
+        <d:City m:type="Edm.String">Lappeenranta</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">53120</d:PostalCode>
+        <d:Country m:type="Edm.String">Finland</d:Country>
+        <d:Phone m:type="Edm.String">(953) 10956</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(24)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(24)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(24)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">24</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">G'day, Mate</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Wendy Mackenzie</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Sales Representative</d:ContactTitle>
+        <d:Address m:type="Edm.String">170 Prince Edward Parade Hunter's Hill</d:Address>
+        <d:City m:type="Edm.String">Sydney</d:City>
+        <d:Region m:type="Edm.String">NSW</d:Region>
+        <d:PostalCode m:type="Edm.String">2042</d:PostalCode>
+        <d:Country m:type="Edm.String">Australia</d:Country>
+        <d:Phone m:type="Edm.String">(02) 555-5914</d:Phone>
+        <d:Fax m:type="Edm.String">(02) 555-4873</d:Fax>
+        <d:HomePage m:type="Edm.String">G'day Mate (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/gdaymate.htm#</d:HomePage>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(25)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(25)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(25)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">25</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Ma Maison</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Jean-Guy Lauzon</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Marketing Manager</d:ContactTitle>
+        <d:Address m:type="Edm.String">2960 Rue St. Laurent</d:Address>
+        <d:City m:type="Edm.String">Montréal</d:City>
+        <d:Region m:type="Edm.String">Québec</d:Region>
+        <d:PostalCode m:type="Edm.String">H1J 1C3</d:PostalCode>
+        <d:Country m:type="Edm.String">Canada</d:Country>
+        <d:Phone m:type="Edm.String">(514) 555-9022</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(26)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(26)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(26)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">26</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Pasta Buttini s.r.l.</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Giovanni Giudici</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Order Administrator</d:ContactTitle>
+        <d:Address m:type="Edm.String">Via dei Gelsomini, 153</d:Address>
+        <d:City m:type="Edm.String">Salerno</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">84100</d:PostalCode>
+        <d:Country m:type="Edm.String">Italy</d:Country>
+        <d:Phone m:type="Edm.String">(089) 6547665</d:Phone>
+        <d:Fax m:type="Edm.String">(089) 6547667</d:Fax>
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(27)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(27)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(27)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">27</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Escargots Nouveaux</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Marie Delamare</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Sales Manager</d:ContactTitle>
+        <d:Address m:type="Edm.String">22, rue H. Voiron</d:Address>
+        <d:City m:type="Edm.String">Montceau</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">71300</d:PostalCode>
+        <d:Country m:type="Edm.String">France</d:Country>
+        <d:Phone m:type="Edm.String">85.57.00.07</d:Phone>
+        <d:Fax m:type="Edm.String" m:null="true" />
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(28)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(28)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(28)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">28</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Gai pâturage</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Eliane Noz</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Sales Representative</d:ContactTitle>
+        <d:Address m:type="Edm.String">Bat. B 3, rue des Alpes</d:Address>
+        <d:City m:type="Edm.String">Annecy</d:City>
+        <d:Region m:type="Edm.String" m:null="true" />
+        <d:PostalCode m:type="Edm.String">74000</d:PostalCode>
+        <d:Country m:type="Edm.String">France</d:Country>
+        <d:Phone m:type="Edm.String">38.76.98.06</d:Phone>
+        <d:Fax m:type="Edm.String">38.76.98.58</d:Fax>
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://services.odata.org/V2/Northwind/Northwind.svc/Suppliers(29)</id>
+    <title type="text"></title>
+    <updated>2020-07-21T06:54:37Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="Supplier" href="Suppliers(29)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Products" type="application/atom+xml;type=feed" title="Products" href="Suppliers(29)/Products" />
+    <category term="NorthwindModel.Supplier" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:SupplierID m:type="Edm.Int32">29</d:SupplierID>
+        <d:CompanyName m:type="Edm.String">Forêts d'érables</d:CompanyName>
+        <d:ContactName m:type="Edm.String">Chantal Goulet</d:ContactName>
+        <d:ContactTitle m:type="Edm.String">Accounting Manager</d:ContactTitle>
+        <d:Address m:type="Edm.String">148 rue Chasseur</d:Address>
+        <d:City m:type="Edm.String">Ste-Hyacinthe</d:City>
+        <d:Region m:type="Edm.String">Québec</d:Region>
+        <d:PostalCode m:type="Edm.String">J2S 7S8</d:PostalCode>
+        <d:Country m:type="Edm.String">Canada</d:Country>
+        <d:Phone m:type="Edm.String">(514) 555-2955</d:Phone>
+        <d:Fax m:type="Edm.String">(514) 555-2921</d:Fax>
+        <d:HomePage m:type="Edm.String" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+</feed>

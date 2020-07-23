@@ -1,0 +1,60 @@
+<mvc:View controllerName="sap.ui.core.sample.RoutingNestedComponent.reuse.categories.controller.List"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	displayBlock="true">
+	<Page id="page"
+		showHeader="false"
+		enableScrolling="true"
+		class="sapUiContentPadding categoriesPage">
+		<Table inset="false"
+			busyIndicatorDelay="0"
+			items="{/Categories}">
+			<headerToolbar>
+				<OverflowToolbar>
+					<content>
+						<Title text="{i18n>listViewTitle}"
+							level="H2" />
+						<ToolbarSpacer />
+					</content>
+				</OverflowToolbar>
+			</headerToolbar>
+			<columns>
+				<Column width="12em">
+					<Text text="ID" />
+				</Column>
+				<Column>
+					<Text text="Description" />
+				</Column>
+				<Column>
+					<Text text="HotelID" />
+				</Column>
+				<Column>
+					<Text text="Bez. Hotel" />
+				</Column>	
+				<Column>
+					<Text text="Id TIN" />
+				</Column>		
+				<Column>
+					<Text text="Bez. TIN" />
+				</Column>	
+				<Column>
+					<Text text="Preis" />
+				</Column>					
+			</columns>
+			<items>
+				<ColumnListItem type="Navigation"
+					press="onPressListItem">
+					<cells>
+						<Text text="{CategoryID}" />
+						<Text text="{Description}" />
+						<Text text="{ProductID}" />
+						<Text text="{Categorie_name_hotel}" />
+						<Text text="{Categorie_tin}" />						
+						<Text text="{Categorie_name_tin}" />
+						<Text text="{Price}" />						
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
+	</Page>
+</mvc:View>

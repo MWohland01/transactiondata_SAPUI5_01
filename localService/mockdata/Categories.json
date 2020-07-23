@@ -1,0 +1,166 @@
+[
+	{
+		"CategoryID": 1,
+		"Description": "EZ",
+		"ProductID": "5",
+		"Categorie_name_hotel": "Einzelzimmer",
+		"Categorie_tin": "EZTIN",
+		"Categorie_name_tin": "Einzelzimmer",
+		"Price": "100.25"
+	},
+	{
+		"CategoryID": 2,
+		"Description": "DZ",
+		"ProductID": "5",
+		"Categorie_name_hotel": "Doppelzimmer",
+		"Categorie_tin": "DZTIN",
+		"Categorie_name_tin": "Doppelzimmer",
+		"Price": "140.25"	
+	},
+	{
+		"CategoryID": 3,
+		"Description": "2BZ",
+		"ProductID": "5",
+		"Categorie_name_hotel": "Zweibettzimmer",
+		"Categorie_tin": "2BZIN",
+		"Categorie_name_tin": "Zweibettzimmer",
+		"Price": "130.50"	
+
+	},
+	{
+		"CategoryID": 4,
+		"Description": "EZ",
+		"ProductID": "6",
+		"Categorie_name_hotel": "Einzelzimmer",
+		"Categorie_tin": "EZTIN",
+		"Categorie_name_tin": "Einzelzimmer",
+		"Price": "95.00"	},
+	{
+		"CategoryID": 5,
+		"Description": "DZ",
+		"ProductID": "6",
+		"Categorie_name_hotel": "Doppelzimmer",
+		"Categorie_tin": "DZTIN",
+		"Categorie_name_tin": "Doppelzimmer",
+		"Price": "128.00"	
+	},
+	{
+		"CategoryID": 6,
+		"Description": "2BZ",
+		"ProductID": "6",
+		"Categorie_name_hotel": "Zweibettzimmer",
+		"Categorie_tin": "2BZIN",
+		"Categorie_name_tin": "Zweibettzimmer",
+		"Price": "129.00"	
+	},
+	{
+		"CategoryID": 7,
+		"Description": "DZ",
+		"ProductID": "1",
+		"Categorie_name_hotel": "Doppelzimmer",
+		"Categorie_tin": "DZTIN",
+		"Categorie_name_tin": "Doppelzimmer",
+		"Price": "88.00"	
+	},
+	{
+		"CategoryID": 8,
+		"Description": "DZ",
+		"ProductID": "2",
+		"Categorie_name_hotel": "Doppelzimmer",
+		"Categorie_tin": "DZTIN",
+		"Categorie_name_tin": "Doppelzimmer",
+		"Price": "125.75"	
+	},
+	{
+		"CategoryID": 9,
+		"Description": "DZ",
+		"ProductID": "3",
+		"Categorie_name_hotel": "Doppelzimmer",
+		"Categorie_tin": "DZTIN",
+		"Categorie_name_tin": "Doppelzimmer",
+		"Price": "95.00"	
+	},	
+	{
+		"CategoryID": 10,
+		"Description": "DZ",
+		"ProductID": "4",
+		"Categorie_name_hotel": "Doppelzimmer",
+		"Categorie_tin": "DZTIN",
+		"Categorie_name_tin": "Doppelzimmer",
+		"Price": "140.25"	
+	},	
+	{
+		"CategoryID": 11,
+		"Description": "EZ",
+		"ProductID": "7",
+		"Categorie_name_hotel": "Einzelzimmer",
+		"Categorie_tin": "EZTIN",
+		"Categorie_name_tin": "Einzelzimmer",
+		"Price": "100.25"
+	},
+	{
+		"CategoryID": 12,
+		"Description": "DZ",
+		"ProductID": "7",
+		"Categorie_name_hotel": "Doppelzimmer",
+		"Categorie_tin": "DZTIN",
+		"Categorie_name_tin": "Doppelzimmer",
+		"Price": "140.25"	
+	},
+	{
+		"CategoryID": 13,
+		"Description": "2BZ",
+		"ProductID": "7",
+		"Categorie_name_hotel": "Zweibettzimmer",
+		"Categorie_tin": "2BZIN",
+		"Categorie_name_tin": "Zweibettzimmer",
+		"Price": "130.50"	
+
+	},
+	{
+		"CategoryID": 14,
+		"Description": "EZ",
+		"ProductID": "8",
+		"Categorie_name_hotel": "Einzelzimmer",
+		"Categorie_tin": "EZTIN",
+		"Categorie_name_tin": "Einzelzimmer",
+		"Price": "100.25"
+	},
+	{
+		"CategoryID":15,
+		"Description": "DZ",
+		"ProductID": "8",
+		"Categorie_name_hotel": "Doppelzimmer",
+		"Categorie_tin": "DZTIN",
+		"Categorie_name_tin": "Doppelzimmer",
+		"Price": "140.25"	
+	},	
+	{
+		"CategoryID": 16,
+		"Description": "EZ",
+		"ProductID": "9",
+		"Categorie_name_hotel": "Einzelzimmer",
+		"Categorie_tin": "EZTIN",
+		"Categorie_name_tin": "Einzelzimmer",
+		"Price": "100.25"
+	},
+	{
+		"CategoryID": 17,
+		"Description": "DZ",
+		"ProductID": "9",
+		"Categorie_name_hotel": "Doppelzimmer",
+		"Categorie_tin": "DZTIN",
+		"Categorie_name_tin": "Doppelzimmer",
+		"Price": "140.25"	
+	},
+	{
+		"CategoryID": 18,
+		"Description": "2BZ",
+		"ProductID": "9",
+		"Categorie_name_hotel": "Zweibettzimmer",
+		"Categorie_tin": "2BZIN",
+		"Categorie_name_tin": "Zweibettzimmer",
+		"Price": "130.50"	
+
+	}
+]

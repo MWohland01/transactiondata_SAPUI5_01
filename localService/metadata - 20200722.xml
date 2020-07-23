@@ -7,13 +7,9 @@
           <PropertyRef Name="CategoryID" />
         </Key>
         <Property Name="CategoryID" Type="Edm.Int32" Nullable="false" p8:StoreGeneratedPattern="Identity" xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
-        <Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
-        <Property Name="ProductID" Type="Edm.Int32" Nullable="false" />		
-		
-        <Property Name="Categorie_name_hotel" Type="Edm.String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
-        <Property Name="Categorie_tin" Type="Edm.String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
-        <Property Name="Categorie_name_tin" Type="Edm.String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
-        <Property Name="Price" Type="Edm.Decimal" Nullable="true" Precision="19" Scale="4" />		
+        <Property Name="CategoryName" Type="Edm.String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+        <Property Name="Description" Type="Edm.String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+        <Property Name="Picture" Type="Edm.Binary" Nullable="true" MaxLength="Max" FixedLength="false" />
         <NavigationProperty Name="Products" Relationship="NorthwindModel.FK_Products_Categories" FromRole="Categories" ToRole="Products" />
       </EntityType>
       <EntityType Name="CustomerDemographic">
@@ -110,8 +106,6 @@
           <PropertyRef Name="ProductID" />
         </Key>
         <Property Name="ProductID" Type="Edm.Int32" Nullable="false" p8:StoreGeneratedPattern="Identity" xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
-		
-<!--		
         <Property Name="ProductName" Type="Edm.String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
         <Property Name="SupplierID" Type="Edm.Int32" Nullable="true" />
         <Property Name="CategoryID" Type="Edm.Int32" Nullable="true" />
@@ -121,26 +115,6 @@
         <Property Name="UnitsOnOrder" Type="Edm.Int16" Nullable="true" />
         <Property Name="ReorderLevel" Type="Edm.Int16" Nullable="true" />
         <Property Name="Discontinued" Type="Edm.Boolean" Nullable="false" />
--->
-		<Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
-		<Property Name="CityID" Type="Edm.String" Nullable="true" MaxLength="15" Unicode="true" FixedLength="false" />
-		<Property Name="City" Type="Edm.String" Nullable="true" MaxLength="15" Unicode="true" FixedLength="false" />	
-		<Property Name="Address" Type="Edm.String" Nullable="true" MaxLength="15" Unicode="true" FixedLength="false" />
-
-		<Property Name="Country" Type="Edm.String" Nullable="false" MaxLength="5" Unicode="true" FixedLength="false" />				
-		<Property Name="Phone" Type="Edm.String" Nullable="true" MaxLength="20" Unicode="true" FixedLength="false" />
-				
-		<Property Name="ChainID" Type="Edm.String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
-		<Property Name="Chain" Type="Edm.String" Nullable="true" MaxLength="15" Unicode="true" FixedLength="false" />				
-
-        <Property Name="CategoryID" Type="Edm.Int32" Nullable="true"  />
-
-
-		<Property Name="Xcoord" Type="Edm.String" Nullable="true" MaxLength="10" Unicode="true" FixedLength="false" />
-		<Property Name="Ycoord" Type="Edm.String" Nullable="true" MaxLength="15" Unicode="true" FixedLength="false" />
-		<Property Name="Spatial" Type="Edm.String" Nullable="true" MaxLength="24" Unicode="true" FixedLength="false" />
-		
-		
         <NavigationProperty Name="Category" Relationship="NorthwindModel.FK_Products_Categories" FromRole="Products" ToRole="Categories" />
         <NavigationProperty Name="Order_Details" Relationship="NorthwindModel.FK_Order_Details_Products" FromRole="Products" ToRole="Order_Details" />
         <NavigationProperty Name="Supplier" Relationship="NorthwindModel.FK_Products_Suppliers" FromRole="Products" ToRole="Suppliers" />
@@ -166,17 +140,18 @@
         <Key>
           <PropertyRef Name="SupplierID" />
         </Key>
-        <Property Name="SupplierID" Type="Edm.Int32" Nullable="false" p8:StoreGeneratedPattern="Identity" xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />		
-		<Property Name="Country" Type="Edm.String" Nullable="true" MaxLength="5" Unicode="true" FixedLength="false" />				
-		<Property Name="CityID" Type="Edm.String" Nullable="true" MaxLength="15" Unicode="true" FixedLength="false" />
-		<Property Name="City" Type="Edm.String" Nullable="true" MaxLength="15" Unicode="true" FixedLength="false" />	
-        <Property Name="ProductID" Type="Edm.Int32" Nullable="true" />				
-		<Property Name="Description" Type="Edm.String" Nullable="true" MaxLength="20" Unicode="true" FixedLength="false" />
-        <Property Name="ArrivalDate" Type="Edm.String" Nullable="true" />
-        <Property Name="StayDuration" Type="Edm.Int32" Nullable="true" />
-        <Property Name="CategoryID" Type="Edm.Int32" 	Nullable="true" />
-        <Property Name="CategoryName" Type="Edm.String" Nullable="true" MaxLength="15" Unicode="true" FixedLength="false" />		
-
+        <Property Name="SupplierID" Type="Edm.Int32" Nullable="false" p8:StoreGeneratedPattern="Identity" xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+        <Property Name="CompanyName" Type="Edm.String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+        <Property Name="ContactName" Type="Edm.String" Nullable="true" MaxLength="30" Unicode="true" FixedLength="false" />
+        <Property Name="ContactTitle" Type="Edm.String" Nullable="true" MaxLength="30" Unicode="true" FixedLength="false" />
+        <Property Name="Address" Type="Edm.String" Nullable="true" MaxLength="60" Unicode="true" FixedLength="false" />
+        <Property Name="City" Type="Edm.String" Nullable="true" MaxLength="15" Unicode="true" FixedLength="false" />
+        <Property Name="Region" Type="Edm.String" Nullable="true" MaxLength="15" Unicode="true" FixedLength="false" />
+        <Property Name="PostalCode" Type="Edm.String" Nullable="true" MaxLength="10" Unicode="true" FixedLength="false" />
+        <Property Name="Country" Type="Edm.String" Nullable="true" MaxLength="15" Unicode="true" FixedLength="false" />
+        <Property Name="Phone" Type="Edm.String" Nullable="true" MaxLength="24" Unicode="true" FixedLength="false" />
+        <Property Name="Fax" Type="Edm.String" Nullable="true" MaxLength="24" Unicode="true" FixedLength="false" />
+        <Property Name="HomePage" Type="Edm.String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
         <NavigationProperty Name="Products" Relationship="NorthwindModel.FK_Products_Suppliers" FromRole="Suppliers" ToRole="Products" />
       </EntityType>
       <EntityType Name="Territory">

@@ -1,159 +1,211 @@
 {
-  "_version": "1.15.0",
-  "start_url": "index.html",
-  "sap.app": {
-    "id": "sap.tnt.sample.ToolPage",
-    "title": "foo",
-    "type": "application",
-    "applicationVersion": {
-      "version": "1.0.0"
-    },
-		"dataSources": {
-			"employeeRemote": {
-				"uri": "/here/goes/your/serviceUrl/",
-				"type": "OData",
-				"settings": {
-					"odataVersion": "2.0",
-					"localUri" : "localService/metadata.xml"
-				}
-			}
+	"_version": "1.21.0",
+	"sap.app": {
+		"id": "sap.ui.core.sample.RoutingNestedComponent",
+		"type": "application",
+		"i18n": {
+			"bundleUrl": "i18n/i18n.properties",
+			"supportedLocales": [
+				""
+			],
+			"fallbackLocale": ""
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"dataSources": {}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
 		}
-  },
-  "sap.ui": {
-    "technology": "UI5",
-    "deviceTypes": {
-      "desktop": true,
-      "tablet": true,
-      "phone": true
-    },
-    "supportedThemes": [
-      "sap_belize_hcb",
-      "sap_belize_hcw",
-      "sap_belize",
-      "sap_belize_plus",
-      "sap_fiori_3",
-      "sap_fiori_3_hcb",
-      "sap_fiori_3_hcw"
-    ]
-  },
-  "sap.ui5": {
-    "dependencies": {
-      "minUI5Version": "1.62.0",
-			"libs": {
-				"sap.ui.core": {},
-				"sap.m": {},
-				"sap.tnt": {}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.ui.core.sample.RoutingNestedComponent.view.App",
+			"type": "XML",
+			"async": true,
+			"id": "app"
+		},
+		"componentUsages": {
+			"suppliersComponent": {
+				"name": "sap.ui.core.sample.RoutingNestedComponent.reuse.suppliers",
+				"settings": {},
+				"componentData": {},
+				"lazy": true
+			},
+			"categoriesComponent": {
+				"name": "sap.ui.core.sample.RoutingNestedComponent.reuse.categories",
+				"settings": {},
+				"componentData": {},
+				"lazy": true
+			},
+			"productsComponent": {
+				"name": "sap.ui.core.sample.RoutingNestedComponent.reuse.products",
+				"settings": {},
+				"componentData": {},
+				"lazy": true
 			}
-    },
-    "contentDensities": {
-      "compact": true,
-      "cozy": true
-    },
-    "models": {
+		},
+		"dependencies": {
+			"minUI5Version": "1.72",
+			"libs": {
+				"sap.m": {}
+			}
+		},
+		"models": {
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "sap.tnt.sample.ToolPage.i18n.i18n"
+					"bundleName": "sap.ui.core.sample.RoutingNestedComponent.i18n.i18n",
+					"supportedLocales": [
+						""
+					],
+					"fallbackLocale": ""
 				}
-			},
-						"": {
-				"dataSource": "employeeRemote"
 			}
-			
-			
-	},
-    "rootView": {
-      "id": "rootView",
-      "viewName": "sap.tnt.sample.ToolPage.view.App",
-      "type": "XML",
-      "async": true
-    },
-    "routing": {
-      "routes": {
-        "home": {
-          "pattern": "",
-          "target": "parentTarget"
-        },
-        "childRoute1": {
-          "pattern": "child1",
-          "target": "childTarget1"
-        },
-        "childRoute2": {
-          "pattern": "child2",
-          "target": "childTarget2"
-        }	
-,
-        "hotelListRoute": {
-          "pattern": "hotels",
-          "target": "hotelsTarget"
-        }			
-		
-      },
-      "targets": 
-	  {
-	  				"hotelsTarget": {
-					"viewPath": "sap.tnt.sample.ToolPage.view.hotels",
-					"viewName": "HotelList",
-         "parent": "parentTarget",
-          "controlId": "pageContainer",
-          "controlAggregation": "pages",					
-					"viewLevel" : 2
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"path": "sap.ui.core.sample.RoutingNestedComponent.view",
+				"controlId": "app",
+				"controlAggregation": "pages",
+				"transition": "slide",
+				"bypassed": {
+					"target": "notFound"
 				},
-				"hotel": {
-					"viewPath": "sap.tnt.sample.ToolPage.view.hotels",
-					"viewName": "Hotel",
-					"viewLevel" : 3
-				},	  
-	  
-        "parentTarget": {
-          "viewPath": "sap.tnt.sample.ToolPage",		
-          "viewName": "ToolPage",
-          "viewLevel": 1
-        },
-        "childTarget0": {
-          "viewPath": "sap.tnt.sample.ToolPage.view.children",
-          "viewName": "Empty",
-          "parent": "parentTarget",
-          "controlId": "pageContainer",
-          "controlAggregation": "pages",
-          "transition": "flip",
-          "viewLevel": 2
-        },
-        "childTarget1": {
-          "viewPath": "sap.tnt.sample.ToolPage.view.children",
-          "viewName": "Child1",
-          "parent": "parentTarget",
-          "controlId": "pageContainer",
-          "controlAggregation": "pages",
-          "transition": "flip",
-          "viewLevel": 3
-        },
-        "childTarget2": {
-          "viewPath": "sap.tnt.sample.ToolPage.view.children",
-          "viewName": "Child2",
-          "parent": "parentTarget",
-          "controlId": "pageContainer",
-          "transition": "slide",
-          "controlAggregation": "pages",
-          "viewLevel": 4
-        },
-        "notFound": {
-          "viewName": "Parent",
-          "transition": "flip",
-          "viewLevel": 0
-        }
-      },
-      "config": {
-        "routerClass": "sap.m.routing.Router",
-        "viewType": "XML",
-        "async": true,
-        "viewPath": "sap.tnt.sample.ToolPage.view",
-        "controlId": "myApp",
-        "controlAggregation": "pages",
-        "bypassed": {
-          "target": "notFound"
-        }
-      }
-    }
-  }
+				"async": true,
+				"propagateTitle": true
+			},
+			"routes": [
+				{
+					"name": "home",
+					"pattern": "",
+					"target": "home"
+				},
+				{
+					"name": "suppliers",
+					"pattern": "suppliers",
+					"target": {
+						"name": "suppliers",
+						"prefix": "s"
+					}
+				},
+				{
+					"name": "categories",
+					"pattern": "categories",
+					"target": {
+						"name": "categories",
+						"prefix": "c"
+					}
+				},
+				{
+					"name": "products",
+					"pattern": "products",
+					"target": {
+						"name": "products",
+						"prefix": "p"
+					}
+				}
+			],
+			"targets": {
+				"home": {
+					"type": "View",
+					"id": "home",
+					"name": "Home",
+					"title": "Home"
+				},
+				"suppliers": {
+					"type": "Component",
+					"usage": "suppliersComponent",
+					"title": "Supplier"
+				},
+				"categories": {
+					"type": "Component",
+					"usage": "categoriesComponent",
+					"title": "Category"
+				},
+				"products": {
+					"type": "Component",
+					"usage": "productsComponent",
+					"title": "Product",
+					"id": "productRoot"
+				},
+				"notFound": {
+					"type": "View",
+					"id": "notFound",
+					"name": "NotFound",
+					"transition": "show"
+				}
+			}
+		},
+		"config": {
+			"sample": {
+				"iframe": "RoutingNestedComponent.html",
+				"stretch": true,
+				"files": [
+					"RoutingNestedComponent.html",
+					"Component.js",
+					"manifest.json",
+					"css/style.css",
+					"controller/App.controller.js",
+					"controller/Home.controller.js",
+					"img/diagram.jpg",
+					"view/Home.view.xml",
+					"view/App.view.xml",
+					"view/NotFound.view.xml",
+					"i18n/i18n.properties",
+					"base/BaseComponent.js",
+					"base/BaseController.js",
+					"reuse/products/css/style.css",
+					"reuse/products/controller/List.controller.js",
+					"reuse/products/controller/App.controller.js",
+					"reuse/products/controller/Detail.controller.js",
+					"reuse/products/Component.js",
+					"reuse/products/manifest.json",
+					"reuse/products/view/Detail.view.xml",
+					"reuse/products/view/App.view.xml",
+					"reuse/products/view/NotFound.view.xml",
+					"reuse/products/view/List.view.xml",
+					"reuse/products/i18n/i18n.properties",
+					"reuse/suppliers/css/style.css",
+					"reuse/suppliers/controller/List.controller.js",
+					"reuse/suppliers/controller/App.controller.js",
+					"reuse/suppliers/controller/Detail.controller.js",
+					"reuse/suppliers/Component.js",
+					"reuse/suppliers/manifest.json",
+					"reuse/suppliers/view/Detail.view.xml",
+					"reuse/suppliers/view/App.view.xml",
+					"reuse/suppliers/view/NotFound.view.xml",
+					"reuse/suppliers/view/List.view.xml",
+					"reuse/suppliers/i18n/i18n.properties",
+					"reuse/categories/css/style.css",
+					"reuse/categories/controller/List.controller.js",
+					"reuse/categories/controller/App.controller.js",
+					"reuse/categories/controller/Detail.controller.js",
+					"reuse/categories/Component.js",
+					"reuse/categories/manifest.json",
+					"reuse/categories/view/Detail.view.xml",
+					"reuse/categories/view/App.view.xml",
+					"reuse/categories/view/NotFound.view.xml",
+					"reuse/categories/view/List.view.xml",
+					"reuse/categories/i18n/i18n.properties"
+				]
+			}
+		}
+	}
 }

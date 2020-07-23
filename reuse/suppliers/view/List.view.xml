@@ -1,0 +1,57 @@
+<mvc:View controllerName="sap.ui.core.sample.RoutingNestedComponent.reuse.suppliers.controller.List"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	displayBlock="true">
+	<Page id="page"
+		showHeader="false"
+		enableScrolling="true"
+		class="sapUiContentPadding suppliersPage">
+		<Table inset="false"
+			busyIndicatorDelay="0"
+			items="{/Suppliers}">
+			<headerToolbar>
+				<OverflowToolbar>
+					<content>
+						<Title text="{i18n>listViewTitle}"
+							level="H2" />
+						<ToolbarSpacer />
+					</content>
+				</OverflowToolbar>
+			</headerToolbar>
+			<columns>
+				<Column width="4em">
+					<Text text="Land" />
+				</Column>
+				<Column>
+					<Text text="City" />
+				</Column>
+				<Column  width="12em">
+					<Text text="Name" />
+				</Column>
+				<Column>
+					<Text text="Ankunft" />
+				</Column>	
+				<Column>
+					<Text text="Dauer" />
+				</Column>								
+				<Column>
+					<Text text="Kategorie" />
+				</Column>								
+				
+			</columns>
+			<items>
+				<ColumnListItem type="Navigation"
+					press="onPressListItem">
+					<cells>
+						<Text text="{Country}" />
+						<Text text="{City}" />
+						<Text text="{Description}" />
+						<Text text="{ArrivalDate}" />						
+						<Text text="{StayDuration}" />												
+						<Text text="{CategoryName}" />																		
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
+	</Page>
+</mvc:View>
